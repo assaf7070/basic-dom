@@ -1,0 +1,23 @@
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 550px;
+  margin: 40px auto;
+  gap: 10px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+  border: 1px solid #444;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+#message {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: bold;
+}
